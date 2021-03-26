@@ -1,4 +1,4 @@
-package day33_Encapsulation;
+package day33_encapsulation;
 
 
 import day20_scope.Scope1;
