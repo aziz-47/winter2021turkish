@@ -2,6 +2,8 @@ package day12_stringmanipulations;
 
 import java.util.Scanner;
 
+
+
 public class C4_IndexOf {
 
 	public static void main(String[] args) {
@@ -31,8 +33,8 @@ public class C4_IndexOf {
         
         String cumle = scan.nextLine().toLowerCase();
         
-        //int sonuc = cumle.indexOf("java"); // java varsa, ilk java kelimesinin index'ini dondurur
-                                           // java yoksa, -1
+        int sonuc = cumle.indexOf("java"); // java varsa, ilk java kelimesinin index'ini dondurur
+        System.out.println(sonuc);                                   // java yoksa, -1
         
         //System.out.println(sonuc==-1 ? "Java icermiyor" : "Java iceriyor");
         
